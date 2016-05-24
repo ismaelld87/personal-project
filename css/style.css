@@ -1,0 +1,419 @@
+@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+
+body{
+	background-color: #eeeeee;
+}
+
+
+
+.barra{
+	padding: 18px;
+	background-color: rgba(0,0,0,0.5);
+	border: none;
+	height: 80px;
+	font-size: 18px;	
+}
+
+.navbar{
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+  	-moz-transition: all .5s ease;
+  	-o-transition: all .5s ease;
+  	-ms-transition: all .5s ease;
+}
+
+.navbar
+.logomael{
+	font-family: 'Racing Sans One', cursive;
+	font-size: 59px;
+	width: 50px;
+	height: auto;
+	color: #f39c12;
+
+}
+
+.navbar .menutxt>li>a{
+    color: #f39c12;
+    text-shadow: -3px -1px 6px rgba(0, 0, 0, 0.5);   
+}
+
+.navbar .menutxt>li>a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: -3px -1px 6px rgba(0, 0, 0, 0.5);
+    
+}
+
+.navbar .menutxt>li>a:focus{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: -3px -1px 6px rgba(0, 0, 0, 0.5);
+    
+}
+
+.lead {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+
+.intro-message {
+	position: relative;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+	margin: 0;
+	font-size: 5em;
+	text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+}
+
+.intro-divider {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message > h3 {
+	text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 767px) {
+	.intro-message {
+		padding-bottom: 15%;
+	}
+
+	.intro-message > h1 {
+		font-size: 3em;
+	}
+	.intro-divider {
+		width: 100%;
+	}
+}
+
+
+.intro-header {
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	color: #f8f8f8;
+	background: url(../img/intro-bg.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.btn-cta{
+		color:#222;
+		background-color:#f39c12;
+		font-weight:700;
+		border-radius:3px;
+		font-size:18px;
+		padding:20px 40px;
+		transition: all .3s ease;
+		-webkit-transition: all .3s ease;
+	  	-moz-transition: all .3s ease;
+	  	-o-transition: all .3s ease;
+	  	-ms-transition: all .3s ease;
+}
+
+.btn-cta:hover{
+	color:#f39c12;
+	background-color:#222;
+}
+
+
+.scrollup{
+	width: 50px;
+	height: 50px;
+	background-image: url(../img/icon_top.png);
+	position: fixed;
+	bottom: 5px;
+	right: 10px;
+	opacity: .7;
+}
+
+
+
+.content-section-a {
+		background-color: white;
+		padding: 50px 0;
+}
+
+.content-section-b {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 50px 0;
+}
+
+.section-heading {
+	margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+	border-top: 3px solid #e7e7e7;
+	width: 500px;
+	float: center;
+}
+
+@media (max-width: 767px) {
+	.section-heading-spacer {
+		width: 300px;
+	}
+}
+
+
+
+.bioh2{
+	padding: 0;
+	margin-top: -7px;
+	color: rgba(127, 140, 141,.9);
+    font-weight: normal;
+}
+
+
+.txt {
+	color: rgba(127, 140, 141,.9);
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: normal;
+}
+
+@media (max-width: 767px) {
+
+	.text-center > .img-responsive{
+		display: inline-block;
+	}
+}
+
+
+@media (min-width: 767px) {
+
+	p.imgsrv{
+		margin-top: 30px;
+	}
+}
+
+.panel-default >.panel-heading {
+    color: #f39c12;
+    background-color: #222;
+    border-color: #ddd;
+}
+
+.in.panel-body > h5{
+	color: #3498db;
+}
+
+
+
+
+
+
+
+.ptxt {
+	color: rgba(127, 140, 141,.9);
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: 400;
+}
+
+.thumbnail{
+	background-color: #222;
+}
+
+.caption > h3{
+	color: #f39c12;
+}
+
+.caption > p{
+	color: rgba(127, 140, 141,.9);
+	font-size: 12px;
+}
+
+
+
+.map{
+	color: #bdbdbd;
+	background: url(../img/map.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.contact{
+	list-style: none;
+	font-size: 22px;
+	margin-left: 0;
+}
+
+.sprite{
+  width: 48px;
+  height: 48px;
+  display: block;
+  background-image: url(../img/mini-social-icons.png);
+
+  transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+}
+
+.sprite.facebook{background-position: -48px -0px;}
+.sprite.facebook:hover{background-position: -48px -48px;}
+
+
+.sprite.twitter{background-position: -0px -0px;}
+.sprite.twitter:hover{background-position: -0px -48px;}
+
+
+.sprite.googleplus{background-position: -96px -0px;}
+.sprite.googleplus:hover{background-position: -96px -48px;}
+
+
+.sprite.linkedin{background-position: -144px -0px;}
+.sprite.linkedin:hover{background-position: -144px -48px;}
+
+
+
+
+.fbtt + .tooltip> .tooltip-arrow {border-bottom-color: #3b5998;}
+.fbtt + .tooltip > .tooltip-inner {background-color: #3b5998;}
+
+.twtt + .tooltip> .tooltip-arrow {border-bottom-color: #00aced;}
+.twtt + .tooltip > .tooltip-inner {background-color: #00aced;}
+
+.gptt + .tooltip> .tooltip-arrow {border-bottom-color: #d34836;}
+.gptt + .tooltip > .tooltip-inner {background-color: #d34836;}
+
+.litt + .tooltip> .tooltip-arrow {border-bottom-color: #007bb6;}
+.litt + .tooltip > .tooltip-inner {background-color: #007bb6;}
+
+
+@media (max-width: 767px) {
+
+	.sprite{
+		margin-bottom: 25px;
+		padding: 0;
+	}
+}
+
+
+
+
+footer{
+	padding: 30px;
+}
+
+
+
+
+p.copyright {
+	margin: 15px 0 0;
+}
+
+
+
+
+
+/*BOTON ITZEL*/
+
+
+.button {
+	min-width: 150px;
+	max-width: 250px;
+	color: white;
+	margin: 1em;
+	padding: 1em 2em;
+	border: none;
+	background: none;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+.button:focus {
+	outline: none;
+}
+
+
+.button--itzel {
+	border: none;
+	padding: 0px;
+	overflow: hidden;
+	width: 255px;
+}
+.button--itzel::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 2px solid;
+	border-radius: inherit;
+	-webkit-clip-path: polygon(0% 0%, 0% 100%, 35% 100%, 35% 60%, 65% 60%, 65% 100%, 100% 100%, 100% 0%);
+	clip-path: url(../index.html#clipBox);
+	-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+	transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+}
+
+
+.button--itzel.button--border-thick::before {
+	border: 3px solid;
+	-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
+	transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
+}
+
+.button--itzel::before,
+.button--itzel .button__icon {
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.button--itzel .button__icon {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	padding: 20px;
+	font-size: 20px;
+	-webkit-transform: translate3d(-50%, 0, 0);
+	transform: translate3d(-50%, 0, 0);
+}
+.button--itzel > span {
+	display: block;
+	padding: 20px;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+.button--itzel:hover::before {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.button--itzel:hover .button__icon {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+	-webkit-transform: translate3d(-50%, -100%, 0);
+	transform: translate3d(-50%, -100%, 0);
+}
+.button--itzel:hover > span {
+	opacity: 0;
+	-webkit-transform: translate3d(0, -50%, 0);
+	transform: translate3d(0, -50%, 0);
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
